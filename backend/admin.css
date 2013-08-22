@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper
+{width:999px; margin:0 auto; background-color:#E4E4E4; min-height:475px;}
+
+.header
+{width:999px; background-image:url(images/heder%20imGE.jpg); height:200px; background-repeat:repeat-x; }
+
+.header .left
+{width:160px; height:200px; float:left;}
+
+.header .left .upper
+{width:160px; height:160px; background-image:url(images/books.jpg); background-position:center; background-repeat:no-repeat;float:left; }
+
+.header .left .lower
+{width:160px; height:40px; text-align:center; font-family:"Monotype Corsiva", "MS Gothic", "MS Serif"; color:#FFFFFF; font-size:22px; }
+
+.header .center
+{text-align:left; width:580; padding-left:15px; color:#FFFFFF; font-family:"Monotype Corsiva", "MS Gothic", "MS Serif"; font-size:22px; font-weight:200; float:left; padding-top:15px; display:block;}
+
+.header .center .upper
+{width:639px;}
+
+.header .center .lower
+{width:639px;}
+
+.header .right
+{float:right; width:150px; height:180px; }
+
+.header .right .lout_button
+{background-image:url(images/logout.jpg); background-position:center; background-repeat:no-repeat;  height:150; width:150px; }
+
+.header .right .lout
+{text-align:right; font-family:"MS Serif", "New York", serif; font-size:20px; padding-top:10px; display:block;color:#FFFFFF;padding-right:10px;}
+
+
+.login_panel
+{margin:0 auto; margin-top:20px; background-color:#FFF; width:300px; font-family:"Times New Roman", Times, serif; font-size:18px; font-weight:310; min-height:380px; border:#000 solid 5px; border-radius:10px; padding-bottom:20px;margin-bottom:80px; }
+
+.login_panel .head
+{width:290px; padding-top:0px; text-transform:uppercase; background-color:#000; color:#FFFFFF; text-align:center; font-size:24px; }
+
+.login_panel .uname{float:left;}
+
+.login_panel .label
+{width:70px; padding-top:20px; padding-left:10px; padding-right:10px; float:left; }
+
+.login_panel .textbox
+{width:130px; padding-left:10px; padding-right:10px; margin-top:2px; height:25px; font-size:18px; border-radius:5px;float:left; }
+
+.login_panel .pass{float:left; }
+
+.login_panel .pass .labelpass
+{width:70px; padding-top:30px; padding-left:10px; padding-right:20px; margin-top:5px; float:left; }
+
+.login_panel .pass .passtextbox
+{float:left; width:140px; padding-left:10px; padding-right:10px; margin-top:25px; height:25px; font-size:18px; border-radius:5px; }
+
+.login_panel .submission
+{float:left; text-align:center; font-size:18px; display:block; margin:0 auto; margin-top:10px; margin-left:75px;width:120px;}
+
+.login_panel .submission:hover
+{background-color:#CCCCFF;}
+
+h1
+{ background-color:#0A3F9B; font-size:24px; color:#FFFFFF; margin:0px; padding-left:10px; padding-top:5px; padding-bottom:5px; }
+
+.dboard_mid
+{ border:solid #0A3F9B 5px; background-color:#FFFFFF;  }
+
+.head
+{background-color:#0A3F9B; font-size:24px; margin-top:0px; padding-left:10px; color:#FFF; width:990px; height:25px;}
+
+.head .left
+{width:500px; float:left; text-align:left; display:block; }
+
+.head .right
+{width:400px; text-align:right; float:right; text-transform:capitalize; display:block; font-size:20px; padding-right:10px;}
+
+.head .left a:link
+{color:#FFF;
+ font-size:24px;
+ text-decoration:none;}
+
+.head .left a:hover, a:active
+{color:#FFF;
+ text-decoration:underline;
+ font-size:24px;}
+.head .left a:visited
+{color:#FFF;
+ font-size:24px;
+ text-decoration:none;}
+
+
+.dboard_mid .cat 
+{ background-image:url(images/category.jpg); background-position:center; background-repeat:no-repeat; border:solid #3100C6; border-radius:7px; border-width:3px; background-color:#FFF; width:100px; height:100px; padding-left:20px; padding-top:20px; margin-top:10px; margin-left:30px; float:left; padding-right:20px;float:left;clear:both;} 
+
+
+.dboard_mid .lbl
+{text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:200; text-transform:capitalize;width:100px; margin-top:70px; display:block;}
+
+.dboard_mid .lbl a:link, a:visited
+{text-decoration:none; color:#000; }
+
+.dboard_mid .lbl a:hover, a:active
+{text-decoration:underline; font-size:20px;}
+
+.block
+{	margin:20px 45px;
+	width:150px;
+	height:150px;
+	background-color:#ECEAEA;
+	border-radius:8px;	
+
+}
+
+.block:hover
+{background-color:#DFD4D4;}
+.block .img
+{
+	width:100px;
+	height:75px;
+	padding-left:50px;
+	padding-top:25px;	
+}
+.block .title
+{
+	width:150px;
+	text-align:center;	
+}
+
+.block .title a:link, a:visited
+{color:#525252; text-decoration:none; }
+
+.block .title a:hover, a:active
+{font-size:18px; text-decoration:underline; }
+
+.footer
+{background-color:#91B0E2; width:999px; margin:0 auto; height:70px; display:block; margin-top:23px; }
+
+.footer table
+{width:250px; height:70px; font-size:10px; color:#FFFFFF; }
+ 
+.footer table .title
+{background-color:#FFFFFF; width:300px; display:block; text-align:left; }
+
+.tbl_view_news
+{width:990px; height:auto; border:solid #481EC6; margin-top:40px; background-color:#FFF; }
+
+.tbl_view_news th
+{background-color:#91B0E2; text-transform:uppercase; text-align:center; }
+
+.tbl_view_news td
+{background-color:#D4DDDD; text-align:center; font-family:Shusha, Kartika, Kokila; font-family:20px; }
+
+table.tbl_view_news  tr:hover
+{background-color:#C5D6D6;}
+
+.tbl_view_news .desc
+{text-align:left; background-color:#D4DDDD;}
+
+.tbl_add_news
+{width:800px; min-height:900px; border:solid #0047B6 3px; border-radius:8px; margin-top:15px;}
+
+.tbl_add_news row
+{border-bottom-color:#000; border-bottom-width:2px;}
+
+.tbl_add_news .row:hover
+{background-color:#B2C6C6;}
+
+.tbl_add_news th
+{background-color:#91B0E2;
+ font-size:20px;
+ font-weight:800;}
+
+.tbl_add_news .txtarea
+{width:500px; height:200px; border-radius:5px; font-family:Shusha, Kartika, Kokila; font-size:20px; font-weight:inherit;}
+
+.tbl_add_news .slctbx
+{width:150px; border-radius:4px; font-family:Shusha, Kartika, Kokila;}
+
+.tbl_add_news .slctbx option
+{font-family:Shusha, Kartika, Kokila;}
+
+.tbl_add_news .textbox
+{width:500px; border-radius:4px; height:25px; font-family:Shusha, kokila, "calibri"; font-size:24px;}
+
+.tbl_add_news .submission
+{text-align:center;
+ font-size:18px; 
+ display:block;
+ width:120px;}
+ 
+.tbl_add_news .submission:hover
+{background-color:#CCCCFF;}

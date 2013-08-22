@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+.newsblock
+{
+	min-width: 650px;
+	min-height: 250px;
+	border-bottom: solid #CCC 2px;
+	float: left;
+	padding:10px;
+	margin:10px;
+}
+
+.newsblock h2
+{
+	font-family:Shusha, Kartika, Kokila;
+	font-size:24px;
+	font-weight:400;
+	color:#750a20;
+	line-height:30px;
+	display:block;
+	text-wrap:normal;
+}
+
+.newsblock .intro_article
+{
+	float:left;
+	padding:10px;
+	font-family:Shusha, Kartika, Kokila;
+	font-size:20px;
+	line-height:26px;
+	font-weight:200;
+	text-wrap:normal;
+	min-width: 330px;
+	margin-top:-20px;
+}
+
+.vid_box
+{	
+	max-width:250px;
+	float:right;
+	margin-right:20px;
+	margin-left:10px;
+	margin-top:30px;
+
+}
+
+.campus_map
+{
+	float:left;
+	margin-top: 20px;
+	padding:30px;
+	border: solid #CCC 1px;
+	min-width:930px;
+	margin-left:10px;
+}
+
+.newsbock2
+{
+	max-width:600px;
+	min-height: 250px;
+	border-bottom: solid #CCC 2px;
+	padding:10px;
+	float:left;
+	margin-top:40px;
+}
+
+.newsblock2 h2
+{
+	font-family:Shusha, Kartika, Kokila;
+	font-size:24px;
+	font-weight:400;
+	color:#750a20;
+	line-height:30px;
+	display:block;
+	text-wrap:normal;
+}
+
+.newsblock2 .intro_article2
+{
+	float:left;
+	padding:10px;
+	font-family:Shusha, Kartika, Kokila;
+	font-size:20px;
+	line-height:26px;
+	font-weight:200;
+	text-wrap:normal;
+	min-width: 330px;
+	margin-top:-20px;
+}

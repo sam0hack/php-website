@@ -1,0 +1,10 @@
+<?php
+	require("header.php");
+	  if(isset($_REQUEST['sub']))
+	  {
+		  if($_REQUEST['sub']=="Add")
+		  	$db->insertCartoon();
+		  if($_REQUEST['sub']=="Update")
+		  	$db->updateCartoon();
+	  }
+ ?>
